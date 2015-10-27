@@ -1,5 +1,5 @@
 ##this is my blog
-博客搭载在github上，地址:soohu.github.io
+博客搭载在github上，地址:bobby4en.github.io
 
 ##Usage
 如果觉得可以的话可以直接clone这个项目
@@ -30,10 +30,10 @@ post
 
 
 ##Author
-博客原作者:Mark Otto 
+博客原作者:Mark Otto/SooHu 
 [github](github.com/mdo)
 
-博客修改:SooHu
+博客修改:bobby
 
 ##License
 MIT
