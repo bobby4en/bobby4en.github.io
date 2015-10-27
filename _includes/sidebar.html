@@ -1,0 +1,29 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div class="sidebar-logo">
+      <a href="/"><img src="/public/img/bobby.jpg"></a>
+    </div>
+    <p style="text-align:center">{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">&nbsp&nbsp<i class="fa fa-home fa-fw"></i>&nbsp&nbsp 主页&nbsp·&nbspHome</a>
+    <a class="sidebar-nav-item" href="/archive/">&nbsp&nbsp<i class="fa fa-file-text-o fa-fw"></i>&nbsp&nbsp 归档&nbsp·&nbspArchive</a>
+    <a class="sidebar-nav-item" href="/category/">&nbsp&nbsp<i class="fa fa-book fa-fw"></i>&nbsp&nbsp 分类&nbsp·&nbspCategory</a>
+    <a class="sidebar-nav-item" href="/tag/">&nbsp&nbsp<i class="fa fa-tags fa-fw"></i>&nbsp&nbsp 标签&nbsp·&nbspTag</a>
+    <a class="sidebar-nav-item" href="/works/">&nbsp&nbsp<i class="fa fa-database fa-fw"></i>&nbsp&nbsp 作品&nbsp.&nbspResults</a>
+    <a class="sidebar-nav-item" href="/about/">&nbsp&nbsp<i class="fa fa-hand-o-right fa-fw"></i>&nbsp&nbsp 关于&nbsp·&nbspAbout</a>
+    <!-- <span class="sidebar-nav-item"><i class="fa fa-info-circle">&nbsp&nbsp  </i>Currently v{{ site.version }}</span> -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>

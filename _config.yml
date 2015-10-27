@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         rdiscount
+highlighter:      pygments
+
+#
+encoding:         "utf-8"
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            bobby
+tagline:          'Life is short, live it.'
+description:      '我们虽然在构建软件，<br/>但软件也会重新塑造我们'
+url:              http://aidianchou.com
+
+author:
+  name:           'bobby'
+  url:            http://aidianchou.com
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+# duoshuo
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : bobby
